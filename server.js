@@ -32,7 +32,7 @@ mongoose.Promise = global.Promise;
 
 //  'mongodb://localhost/hangman_options' ||
 
-let mongoConnect = 'mongodb://heroku_sr0qfrxc:qhn4m67jklichtdsfrms7rnta9@ds157653.mlab.com:57653/heroku_sr0qfrxc'
+let mongoConnect = 'mongodb://localhost/react-template-with-auth'
 // Connect to the Mongo DB
 mongoose.connect(
   mongoConnect, {

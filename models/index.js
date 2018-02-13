@@ -1,4 +1,3 @@
 module.exports = {
-  Article: require("./article"),
-  Biodiversity: require("./biodiversity")
+  TestData: require("./testdata")
 };

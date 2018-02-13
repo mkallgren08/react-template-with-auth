@@ -1,6 +1,10 @@
 import axios from "axios";
 
 export default {
+  //Gets a test case
+  getTestData: function(){
+    return axios.get("/api/testdata")
+  },
   //Get all animals
   getBiodiversity: function(){
     return axios.get("/api/biodiversity")
